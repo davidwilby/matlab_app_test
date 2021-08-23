@@ -3,4 +3,5 @@
 
 appFileName = "tutorialApp.mlapp";
 appFilePath = fullfile(pwd,appFileName);
+disp(appFilePath)
 buildResults = compiler.build.standaloneApplication(appFilePath);
